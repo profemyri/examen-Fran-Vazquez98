@@ -38,7 +38,12 @@ input,select,textarea {
 };
 
 button {
-   
-}
+   background-color: #a4161a;
+   color:white;
+   border-radius: 5px;
+   padding:5px;
+};
 
-............
+textarea {
+   place-content: #5f5e5e;
+};
