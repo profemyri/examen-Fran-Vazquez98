@@ -9,7 +9,7 @@
     <h1>Realiza tu pedido</h1>
     <img src="cheese-burger.png">
 
-    <form>
+    <form id="pedido">
         Nombre
         <br>
         <input type="text" id="nombre" required>
@@ -35,25 +35,25 @@
         <input type="number" min="00" max="24">
     </form>
 
-    <form>
+    <form id="tipo">
         Tipo de hamburguesa:
         <br>
-        <input type="radio" name="hamburguesa" value="clasica">Clasica
+        <input type="radio" id="hamburguesa" value="clasica">Clasica
         <br>
-        <input type="radio" name="hamburguesa" value="bbq">BBQ
+        <input type="radio" id="hamburguesa" value="bbq">BBQ
         <br>
-        <input type="radio" name="hamburguesa" value="especia">Especial
+        <input type="radio" id="hamburguesa" value="especia">Especial
     </form>
     <form>
         Ingredientes extra:
         <br>
-        <input type="checkbox" value="bacon">Bacon
+        <input type="checkbox" id="extra" value="bacon">Bacon
         <br>
-        <input type="checkbox" value="queso">Queso
+        <input type="checkbox" id="extra" value="queso">Queso
         <br>
-        <input type="checkbox" value="huevo">Huevo
+        <input type="checkbox" id="extra" value="huevo">Huevo
         <br>
-        <input type="checkbox" value="patatas">Patatas  
+        <input type="checkbox" id="extra" value="patatas">Patatas  
     </form>
     <form>
         Cantidad
@@ -69,8 +69,8 @@
         <br>
         <input type="radio" id="pago" value="paypal">PayPal
     </form>
-    <form>
-        <input type="text" max="100" placeholder="Escribe tus preferencias">
+    <form id="instrucciones">
+        <input type="text" id="contador" placeholder="Escribe tus preferencias">
     </form>
 
     <button type="submit" id="enviar">Enviar Pedido</button>
