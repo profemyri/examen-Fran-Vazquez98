@@ -1,13 +1,44 @@
 body {
-   ...........
+   background-color: #faf0dc;
+   color:black;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-   ...........
-}
+   font-size: 32px;
+   color:#a4161a;
+   text-align:center;
+   margen
+};
+
+h2 {
+   font-size: 24px;
+   color:#5f5e5e;
+   margen
+};
+
+img {
+   width: ;
+   border-radius: 5px;
+   margen
+};
 
 form {
-   ...........
+   background-color: #ffffff;
+   border-radius: 5px;
+   padding:20px;
+
+};
+
+input,select,textarea {
+   border-collapse: #eaeaea;
+   border-radius: 5px;
+   padding:8px;
+   margen inf
+};
+
+button {
+   
 }
 
 ............
