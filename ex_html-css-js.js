@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const telefono = document.getElementById("telefono").value.trim();
     const email = document.getElementById("email").value.trim();
     
-    if(nombre == "" || direccion.length < 15 ||!\d{9}.test(telefono) || !email.includes("@")) {
+    if(nombre == "" || direccion.length < 15 ||telefono.length==9 || !email.includes("@")) {
         alert("Revisa el formulario: algunos campos son incorrectos o están incompletos");
     } else{
         alert("Listo");
