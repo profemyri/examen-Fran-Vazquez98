@@ -10,15 +10,15 @@
     <img src="cheese-burger.png">
 
     <form>
-        <input type="text" id="nombre" placeholder="Introduzca su nombre">
+        <input type="text" id="nombre" required>
         <br>
-        <input type="text" id="apellidos" placeholder="Introduzca sus apellidos"> 
+        <input type="text" id="apellidos" required> 
         <br>
-        <input type="text" id="direccion" placeholder="Introduzca su direccion">
+        <input type="text" id="direccion" required>
         <br>
-        <input type="number" id="telefono" 
+        <input type="tel" id="telefono" required>
         <br>
-        <input type="email" id="email" placeholder="Introduzca su email">
+        <input type="email" id="email" required>
         <br>
         <input type="number" min="00" max="24">
     </form>
@@ -36,13 +36,32 @@
         <br>
         <input type="checkbox" value="bacon">Bacon
         <br>
-        <input type="" value="queso">Queso
+        <input type="checkbox" value="queso">Queso
         <br>
-        <input type="" value="huevo">Huevo
+        <input type="checkbox" value="huevo">Huevo
         <br>
-        <input type="" value="patatas">Patatas  
+        <input type="checkbox" value="patatas">Patatas  
     </form>
-    
+    <form>
+        Cantidad
+        <br>
+        <input type="number" min="1" max="5">
+    </form>
+    <form>
+        Metodo de pago
+        <br>
+        <input type="radio" id="pago" value="efectivo">Efectivo
+        <br>
+        <input type="radio" id="pago" value="tarjeta">Tarjeta
+        <br>
+        <input type="radio" id="pago" value="paypal">PayPal
+    </form>
+    <form>
+        <input type="text" max="100" placeholder="Escribe tus preferencias">
+    </form>
+
+    <button type="submit" id="enviar">Enviar Pedido</button>
+
 
     <script src="ex_html-css-js.js"></script>
 
